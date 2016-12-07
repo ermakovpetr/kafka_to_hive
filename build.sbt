@@ -1,0 +1,8 @@
+name := "Simple Project"
+version := "1.0"
+scalaVersion := "2.10.6"
+resolvers += "Cloudera" at "https://repository.cloudera.com/artifactory/cloudera-repos/"
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "2.0.2"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "1.6.0-cdh5.8.2"
+libraryDependencies += "org.apache.spark" %% "spark-streaming-kafka-0-8" % "2.0.2"
+libraryDependencies += "org.apache.kafka" % "kafka_2.10" % "0.9.0.1"
